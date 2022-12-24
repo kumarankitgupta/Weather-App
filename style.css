@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/cloud-blue-sky_1232-3108.jpg?w=2000&t=st=1671711704~exp=1671712304~hmac=9b03b37a290b14cd4b732f7adad3f2c7ecfe99c957d38ff6a22839db62026cc4");
+}
+.box{
+    border: 0;
+    border-bottom: 3px solid #fff;
+    width: 40%;
+    font-size: x-large;
+    color: whitesmoke;
+    outline: none;
+    opacity: 2;
+    color: darkblue;
+
+}
+.mycols{
+    height: 350px;
+    width: 270px;
+    background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1%;
+    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: darkblue;
+    opacity: 1;
+}
+
+.mycols:hover{
+    transform: scale(1.05);
+}
+
+.colimage{
+    height: 150px;
+    width: 240px;
+    margin-bottom: 50px;
+}
