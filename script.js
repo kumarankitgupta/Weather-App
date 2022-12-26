@@ -11,7 +11,7 @@ submit.addEventListener('click',()=>{
         getCity(cn);
     }
 })
-const key = 'fzSX4bEC6Xp74ppemxanrZxmA9jfGRzA';
+const key = 'mgMBXf41O1KuG1WObHi8LGir5JbeQXBE';
 var getkey;
 function getCity(city){
     const url = 'https://dataservice.accuweather.com/locations/v1/cities/search';
